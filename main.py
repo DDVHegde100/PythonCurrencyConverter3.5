@@ -1,5 +1,5 @@
 print("Welcome to Dhruv's Currency Converter!")
-val=str(input('Enter the output currency:'))
+val=str(input('Enter the output currency code:'))
 if(val=='INR'){
     USD=float(input('Enter the amount in USD:'))
     INR=USD*74.24
